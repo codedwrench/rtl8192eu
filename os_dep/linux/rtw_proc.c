@@ -3328,6 +3328,7 @@ static const struct file_operations rtw_mcc_proc_sseq_fops = {
 	.release = single_release,
 	.write = rtw_mcc_proc_write,
 };
+#endif
 
 struct proc_dir_entry *rtw_mcc_proc_init(struct net_device *dev)
 {
