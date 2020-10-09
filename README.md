@@ -10,10 +10,12 @@ Linux driver for Realtek **RTL8192EU** based on official's **TP Link TL - WN823N
 - TL-WN823N V3 _(tested)_
 
 # Changelog:
+- Added MTU setting
 - Added frame injection support
 - Monitor mode is now supported
 - Turned of powersaving
 - Turned of debug
+- Added compatibility for Linux Kernel v5.8.12
 - Added compatibility for Linux Kernel v5.0-rc1
 - Added compatibility for Linux Kernel v4.20
 - Added compatibility for Linux Kernel v4.19+
